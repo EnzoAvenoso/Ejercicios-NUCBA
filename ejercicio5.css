@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(216, 202, 81);
+}
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    height: 100px ;
+    align-items: center;
+    padding: 30px 40px;
+}
+.logo{
+    margin-top: 20px;
+}
+.nav_list{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+.nav_link{
+    color: black;   
+    border: 2px rgb(216, 202, 81) solid;
+    border-radius: 8px;
+    background-color: rgb(216, 202, 81);
+    padding: 5px; 
+}
+.nav_link:hover{
+    background-color: black;
+    color: rgb(216, 202, 81);
+}
+/* PRESENTACION */
+.present{
+    /* background: red; */
+    display: flex;
+    height: 30rem;
+    justify-content: space-around;
+}
+.text_box{
+    /* background: green; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    height: 100%;
+    width: 40%;
+    
+}
+.title{
+    /* background: yellow; */
+    padding: 50px 40px 30px 40px;
+
+}
+.title_p{
+    /* background: blue; */
+    padding: 80px 20px;
+    margin: 0px 40px 30px 40px;;
+    
+
+}
+.title_logo{
+    /* background: grey; */
+    display: flex;
+    height: 100%;
+    width: 50%;
+    margin: 50px 30px;
+    padding: 0 30px;
+}
+.btn{
+    color: black;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 50px 40px;
+}
+.btn:hover{
+    background: black;
+    color: rgb(216, 202, 81);
+}
+.text_info{
+    margin: 50px;
+}
